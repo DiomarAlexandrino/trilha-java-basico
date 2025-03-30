@@ -5,13 +5,22 @@ www.dio.me
 - [Gleyson Sampaio](https://github.com/glysns)
 
 ## Exercício operadores
-Crie o programa chamado `BancoTerminal.java` para implementar o algorítmo conforme abaixo:
+## Exercício: Simulação de Operação de Saque
+
+Crie o programa chamado `BancoTerminal.java` para implementar o algoritmo conforme descrito abaixo:
 
 O programa deverá simular uma operação de saque onde:
 
-1. Terá uma variável denominada `saldo` do tipo double contendo o valor inicial igual a 25;
-1. Terá uma variável denominada de `valor solicitado` do tipo double contendo o valor inicial igual a 18;
-1. Criar uma expressão relacional para que caso o saldo seja `maior` que o valor solicitado, o saldo recebe o novo valor como saldo é igual saldo menos o valor solicitado. Caso o saldo seja menor que o valor solicitado, devemos exibir a mensagem "Saldo insuficiente";
-1. Imprima o valor do saldo;
+1. Declare uma variável denominada `saldo` do tipo `double` com o valor inicial igual a `25`.
+2. Declare uma variável denominada `valorSolicitado` do tipo `double` com o valor inicial igual a `18`.
+3. Crie uma expressão condicional que:
+    - Caso o `saldo` seja **maior ou igual** ao `valorSolicitado`, atualize o `saldo` subtraindo o `valorSolicitado` e exiba o novo valor do saldo.
+    - Caso contrário, exiba a mensagem `"Saldo insuficiente"`.
+4. Imprima o valor do saldo após a operação.
 
-1. Em seguida, realize a mesma execução do programana agora com os valores saldo igual a 15 e valor solicitado igual a 22 e exiba o resultado;
+### Teste adicional:
+Repita a execução do programa com os seguintes valores:
+- `saldo` igual a `15`
+- `valorSolicitado` igual a `22`
+
+Exiba o resultado correspondente para este cenário.
